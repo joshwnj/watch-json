@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const path = require('path');
+const watchJson = require('../');
+const filename = path.resolve(process.argv[2]);
+
+watchJson(filename)
+  .on('json', function (obj) {
+    process.stdout.write(JSON.stringify(obj) + '\n');
+  })
+  .on('error', function (err) {
+    process.stderr.write(err.message + '\n');
+  });

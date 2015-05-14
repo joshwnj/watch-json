@@ -1,0 +1,28 @@
+{
+  "name": "watch-json",
+  "version": "1.0.0",
+  "description": "Module and cli that watches a json file and emits an object when it changes",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "bin": {
+    "watch-json": "./bin/watch-json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watch",
+    "json"
+  ],
+  "author": "joshwnj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshwnj/watch-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshwnj/watch-json/issues"
+  },
+  "homepage": "https://github.com/joshwnj/watch-json"
+}
